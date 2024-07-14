@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
 }
-/* General Srtle */
+/* General Style */
 p{
     color: #272727;
     font-size: 18px;
@@ -21,15 +21,33 @@ button{
     border: none;
     font-size: 20px;
     padding: 15px 28px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    transition: all 1s;
 }
 header{
-    background-color:rgb(118, 169, 169);
+    background-color:rgb(238 238 238);
 }
 .container{
     width: 75%;
     max-width: 1440px;
     margin: 0 auto;
 }
+.section_heading{
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+.section_heading h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
 .banner{
     display: flex;
     align-items: center;
@@ -46,13 +64,78 @@ header{
     font-weight: 800;
     line-height: normal;
 }
-.banner .banner_text{
-    background-color: yellow;
-}
-.banner .banner_img{
-    background-color: turquoise;
-}
 .banner .banner_img img{
     width: 100%;
     vertical-align:middle;
+}
+
+
+#featured, #support{
+    padding: 100px 0;
+}
+.section_content{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+
+}
+.flower .flower_img{
+    background-color: rgb(243 243 243);
+    border: dashed 1px #612c2c;
+    border-radius: 300px 300px 0 0;
+    padding: 10px 15px 0;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+.flower .flower_img img{
+    width: 100%;
+}
+.flower p{
+    text-align: center;
+    background-color: rgb(5, 81, 55);
+    color: white;
+}
+.support_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 100px 50px;
+}
+.card{
+    text-align: center;
+}
+
+#hot_deal{
+    background-color: rgb(231, 243, 241);
+    padding: 50px 0;
+}
+.container_clement{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container_text{
+    width: 600px;
+    line-height: 80px;
+    text-align: center;
+}
+.container_img{
+    margin-right: 100px;
+}
+
+.container_img img{
+    width: 100%;
+}
+
+.img_card_4{
+    display: flex;
+    gap: 15px;
+}
+.img_ca img{
+    width: 100%;
+}
+.image_card{
+    margin: 100px 0;
 }
