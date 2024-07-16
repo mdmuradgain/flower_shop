@@ -47,6 +47,9 @@ header{
     font-weight: 800;
     margin-bottom: 16px;
 }
+.section_heading p{
+    text-align: center;
+}
 
 .banner{
     display: flex;
@@ -138,4 +141,53 @@ header{
 }
 .image_card{
     margin: 100px 0;
+}
+#newsletter{
+    margin: 128px 0px;
+}
+.newsletter_main{
+    background-image: url(../image/Rectangle\ 9.png);
+    padding: 122px 0;
+}
+#newsletter form{
+    max-width: 500px;
+    margin: 1px auto;
+    gap: 10px;
+    display: flex;
+}
+#newsletter form input{
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 18px;
+}
+footer{
+    background-color: #111010;
+    padding: 100px 0;
+    text-align: center;
+}
+.footer_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 80px;
+}
+.footer_content h1{
+    color: white;
+}
+.footer_content .colo{
+    color: #E55473;
+}
+.footer_content p{
+    color: white;
+    width: 625px;
+    text-align: center;
+    font-size: 18px;
+}
+.footer_content .ppp{
+    color: #FFFFFF;
+    opacity: 40%;
+    font-size: 16px;
+    line-height: 80px;
 }
